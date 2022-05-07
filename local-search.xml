@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>什么是keyFrame</title>
+    <link href="/2022/05/06/%E4%BB%80%E4%B9%88%E6%98%AFkeyFrame/"/>
+    <url>/2022/05/06/%E4%BB%80%E4%B9%88%E6%98%AFkeyFrame/</url>
+    
+    <content type="html"><![CDATA[<h2 id="SLAM中的关键帧是什么？有什么用？如何选择关键帧？"><a href="#SLAM中的关键帧是什么？有什么用？如何选择关键帧？" class="headerlink" title="SLAM中的关键帧是什么？有什么用？如何选择关键帧？"></a>SLAM中的关键帧是什么？有什么用？如何选择关键帧？</h2><blockquote><p>首先是地一个问题：SLAM中的关键帧是什么？<br>当然你直接在百度中搜索此问题可以得到下面的解释：</p></blockquote><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">指角色或者物体运动变化中关键动作所处的那一帧，相当于二维动画中的原画。关键帧与关键帧之间的动画可以由软件创建添加，叫做过渡帧或者中间帧。 帧——即动画中最小单位的单幅影像画面，相当于电影胶片上的每一格镜头，在动画软件的时间轴上，帧表现为一格或者一个标记。<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>keyFrame, orb-slam, slam</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>testBlog</title>
     <link href="/2022/05/06/testBlog/"/>
     <url>/2022/05/06/testBlog/</url>

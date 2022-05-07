@@ -16,23 +16,21 @@
   <meta name="author" content="王鹏涛">
   <meta name="keywords" content="">
   
-    <meta name="description" content="测试文章">
+    <meta name="description" content="SLAM中的关键帧是什么？有什么用？如何选择关键帧？ 首先是地一个问题：SLAM中的关键帧是什么？当然你直接在百度中搜索此问题可以得到下面的解释：  1指角色或者物体运动变化中关键动作所处的那一帧，相当于二维动画中的原画。关键帧与关键帧之间的动画可以由软件创建添加，叫做过渡帧或者中间帧。 帧——即动画中最小单位的单幅影像画面，相当于电影胶片上的每一格镜头，在动画软件的时间轴上，帧表现为一格或者一个">
 <meta property="og:type" content="article">
-<meta property="og:title" content="testBlog">
-<meta property="og:url" content="http://wh-debug.github.io/2022/05/06/testBlog/index.html">
+<meta property="og:title" content="什么是keyFrame">
+<meta property="og:url" content="http://wh-debug.github.io/2022/05/06/%E4%BB%80%E4%B9%88%E6%98%AFkeyFrame/index.html">
 <meta property="og:site_name" content="鱼与渔">
-<meta property="og:description" content="测试文章">
+<meta property="og:description" content="SLAM中的关键帧是什么？有什么用？如何选择关键帧？ 首先是地一个问题：SLAM中的关键帧是什么？当然你直接在百度中搜索此问题可以得到下面的解释：  1指角色或者物体运动变化中关键动作所处的那一帧，相当于二维动画中的原画。关键帧与关键帧之间的动画可以由软件创建添加，叫做过渡帧或者中间帧。 帧——即动画中最小单位的单幅影像画面，相当于电影胶片上的每一格镜头，在动画软件的时间轴上，帧表现为一格或者一个">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://wh-debug.github.io/2022/05/06/testBlog/10.jpg">
-<meta property="article:published_time" content="2022-05-06T07:00:53.000Z">
-<meta property="article:modified_time" content="2022-05-06T07:08:00.864Z">
+<meta property="article:published_time" content="2022-05-06T08:56:47.000Z">
+<meta property="article:modified_time" content="2022-05-06T09:26:01.939Z">
 <meta property="article:author" content="王鹏涛">
-<meta property="article:tag" content="鱼与渔">
+<meta property="article:tag" content="keyFrame, orb-slam, slam">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://wh-debug.github.io/2022/05/06/testBlog/10.jpg">
   
   
-  <title>testBlog - 鱼与渔</title>
+  <title>什么是keyFrame - 鱼与渔</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -195,7 +193,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="testBlog"></span>
+            <span id="subtitle" data-typed-text="什么是keyFrame"></span>
           
         </div>
 
@@ -206,7 +204,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-05-06 15:00" pubdate>
+        <time datetime="2022-05-06 16:56" pubdate>
           2022年5月6日 下午
         </time>
       </span>
@@ -218,7 +216,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          4 字
+          199 字
         
       </span>
     
@@ -229,7 +227,7 @@
         
         
         
-          1 分钟
+          2 分钟
         
       </span>
     
@@ -275,14 +273,16 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">testBlog</h1>
+            <h1 style="display: none">什么是keyFrame</h1>
             
             <div class="markdown-body">
               
-              <p>测试文章</p>
-<img src="/2022/05/06/testBlog/10.jpg" srcset="/img/loading.gif" lazyload class="" title="This is an example image">
+              <h2 id="SLAM中的关键帧是什么？有什么用？如何选择关键帧？"><a href="#SLAM中的关键帧是什么？有什么用？如何选择关键帧？" class="headerlink" title="SLAM中的关键帧是什么？有什么用？如何选择关键帧？"></a>SLAM中的关键帧是什么？有什么用？如何选择关键帧？</h2><blockquote>
+<p>首先是地一个问题：SLAM中的关键帧是什么？<br>当然你直接在百度中搜索此问题可以得到下面的解释：</p>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">指角色或者物体运动变化中关键动作所处的那一帧，相当于二维动画中的原画。关键帧与关键帧之间的动画可以由软件创建添加，叫做过渡帧或者中间帧。 帧——即动画中最小单位的单幅影像画面，相当于电影胶片上的每一格镜头，在动画软件的时间轴上，帧表现为一格或者一个标记。<br></code></pre></td></tr></table></figure>
 
-<span id="more"></span>
+
               
             </div>
             <hr/>
@@ -293,7 +293,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E9%B1%BC%E4%B8%8E%E6%B8%94/">#鱼与渔</a>
+        <a href="/tags/keyFrame-orb-slam-slam/">#keyFrame, orb-slam, slam</a>
       
     </div>
   
@@ -305,8 +305,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>testBlog</div>
-      <div>http://wh-debug.github.io/2022/05/06/testBlog/</div>
+      <div>什么是keyFrame</div>
+      <div>http://wh-debug.github.io/2022/05/06/什么是keyFrame/</div>
     </div>
     <div class="license-meta">
       
@@ -348,18 +348,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/05/06/%E4%BB%80%E4%B9%88%E6%98%AFkeyFrame/" title="什么是keyFrame">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">什么是keyFrame</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/05/06/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2022/05/06/testBlog/" title="testBlog">
+                        <span class="hidden-mobile">testBlog</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
